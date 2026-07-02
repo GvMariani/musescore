@@ -1,0 +1,24 @@
+diff -rupN MuseScore-4.7.3.old/src/braille/thirdparty/liblouis/tables/countries.cti MuseScore-4.7.3/src/braille/thirdparty/liblouis/tables/countries.cti
+--- MuseScore-4.7.3.old/src/braille/thirdparty/liblouis/tables/countries.cti	2026-06-08 13:31:38.000000000 +0200
++++ MuseScore-4.7.3/src/braille/thirdparty/liblouis/tables/countries.cti	2026-07-02 18:53:49.567882020 +0200
+@@ -13,7 +13,7 @@
+ 
+ # You should have received a copy of the GNU Lesser General Public
+ # License along with this file; if not, write to the Free Software
+-# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++# Foundation, Inc., 31 Milk Street, # 960789, Boston, MA 02196, USA
+ # This is free software, placed under the terms of the
+ # GNU General Public License, as published by the Free Software
+ # Foundation.  Please see the file COPYING for details.
+diff -rupN MuseScore-4.7.3.old/src/braille/thirdparty/liblouis/tables/fr-bfu-g2.ctb MuseScore-4.7.3/src/braille/thirdparty/liblouis/tables/fr-bfu-g2.ctb
+--- MuseScore-4.7.3.old/src/braille/thirdparty/liblouis/tables/fr-bfu-g2.ctb	2026-06-08 13:31:38.000000000 +0200
++++ MuseScore-4.7.3/src/braille/thirdparty/liblouis/tables/fr-bfu-g2.ctb	2026-07-02 18:54:31.814852667 +0200
+@@ -31,7 +31,7 @@
+ 
+ # You should have received a copy of the GNU Lesser General Public
+ # License along with this file; if not, write to the Free Software
+-# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
++# Foundation, Inc., 31 Milk Street, # 960789, Boston, MA 02196, USA
+ # liblouis  comes with ABSOLUTELY NO WARRANTY.
+ #
+ #	Référence :

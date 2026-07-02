@@ -10,17 +10,19 @@
 
 Summary:	Linux MusE Score Typesetter
 Name:		musescore
-Version:		4.7.1
+Version:		4.7.3
 Release:	%{?beta:0.%{beta}.}1
 # rtf2html is LGPLv2+
 # paper4.png paper5.png are LGPLv3
-# the rest is GPLv2
-License:	GPLv2 and LGPLv2+ and LGPLv3
+# the rest is now GPLv3
+License:	GPLv3 and LGPLv2+ and LGPLv3
 Url:		https://musescore.org
 Group:		Publishing
 Source0:	https://github.com/musescore/MuseScore/archive/%{srcname}-%{version}%{?beta:%{beta}}.tar.gz
 Patch0:		musescore-4.7.1-dont-use-gtk-platform-theme.patch
+Patch1:		musescore-4.7.3-fix-FSF-address.patch
 BuildRequires:		cmake >= 3.22
+BuildRequires:		git
 BuildRequires:		ninja
 BuildRequires:		qmake-qt6
 BuildRequires:		xxd
@@ -154,9 +156,7 @@ This package contains the musical notation fonts for use of MuseScore.
 	-DMUE_COMPILE_USE_SYSTEM_OPUSENC:BOOL=ON \
 	-DMUE_COMPILE_USE_SYSTEM_FLAC:BOOL=ON \
 	-DMUE_DOWNLOAD_SOUNDFONT:BOOL=OFF \
-	-DMUE_BUILD_IMPEXP_MNX_MODULE:BOOL=OFF \
-	-DBUILD_PORTMIDI:BOOL=OFF \
-	-DBUILD_CRASHPAD_CLIENT:BOOL=OFF
+	-DMUE_BUILD_IMPEXP_MNX_MODULE:BOOL=OFF
 
 
 %build

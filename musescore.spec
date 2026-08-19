@@ -109,10 +109,10 @@ Features:
 #-----------------------------------------------------------------------------
 
 %package doc
-Summary:    MuseScore documentation
-Group:      Development/Other
-License:    CC-BY
-Requires:   %{name} = %{version}-%{release}
+Summary:		MuseScore documentation
+Group:	Development/Other
+License:		CC-BY
+Requires:	%{name} = %{version}-%{release}
 %rename	mscore-doc
 BuildArch:		noarch
 
@@ -128,7 +128,7 @@ This package contains the reference manual of MuseScore.
 #-----------------------------------------------------------------------------
 
 %package fonts
-Summary:	MuseScore fonts
+Summary:		MuseScore fonts
 Group:		Publishing
 License:		GPL+ with exceptions and OFL
 BuildRequires:		fontforge
